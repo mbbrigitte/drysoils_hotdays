@@ -3,7 +3,7 @@
 Hirschi M., B. Mueller, W. Dorigo and S. I. Seneviratne (2014): Using remotely sensed soil moisture for land-atmosphere coupling diagnostics: The role of surface vs. root-zone soil moisture variability. Remote Sensing of Environment,  doi:10.1016/j.rse.2014.08.030. 
 
 ##Structure:
-corr_sPI_HD.pro
+corr_sPI_HD.pro  
 This function can read in any of the SPI-like and HotDay-like data used for both Hirschi et al. (2014) and Mueller and Seneviratne (2012). There is a description what the function does and how to properly call it in the header. 
 The code uses the functions in this directory: read_GLDAS.pro, read_HD.pro and read_monthly_EI_temperature.pro to read in the data needed.
 
