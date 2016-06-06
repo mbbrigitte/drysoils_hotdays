@@ -1,6 +1,8 @@
 # Code for papers relating dry soils and hot days
-##IDL-Code from Paper at ETH Zurich: 
+##IDL-Code from Papers at ETH Zurich: 
 Hirschi M., B. Mueller, W. Dorigo and S. I. Seneviratne (2014): [Using remotely sensed soil moisture for land-atmosphere coupling diagnostics: The role of surface vs. root-zone soil moisture variability.](http://www.sciencedirect.com/science/article/pii/S003442571400337X) Remote Sensing of Environment,  doi:10.1016/j.rse.2014.08.030. 
+
+Mueller, B. and S.I. Seneviratne (2012): [Hot days induced by precipitation deficits at the global scale.](http://www.pnas.org/content/109/31/12398.full?sid=1134f824-548e-4797-aeb9-3cfbf40f4931) Proceedings of the National Academy of Sciences of the United States of America, 109 (31), 12398-12403, doi: 10.1073/pnas.1204330109
 
 ##Main code calculating correlations:
 * :arrow_right: [corr_SPI_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/corr_SPI_NHD.pro)
@@ -23,8 +25,5 @@ The code uses the sub-functions in this directory: [read_GLDAS.pro](https://gith
 To prepare the downloaded ERA-Interim or other sources temperature, the code [prepare_daily_temp.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/prepare_daily_temp.pro) extracts the maximum daily temperature from several (usually 4) values a day and saves them in NetCDF to be read in and used in heatw_temp_percentiles_5d.pro.
 
 
-##Bibliography
-Hirschi M., B. Mueller, W. Dorigo and S. I. Seneviratne (2014): [Using remotely sensed soil moisture for land-atmosphere coupling diagnostics: The role of surface vs. root-zone soil moisture variability.](http://www.sciencedirect.com/science/article/pii/S003442571400337X) Remote Sensing of Environment,  doi:10.1016/j.rse.2014.08.030. 
 
-Mueller, B. and S.I. Seneviratne (2012): [Hot days induced by precipitation deficits at the global scale.](http://www.pnas.org/content/109/31/12398.full?sid=1134f824-548e-4797-aeb9-3cfbf40f4931) Proceedings of the National Academy of Sciences of the United States of America, 109 (31), 12398-12403, doi: 10.1073/pnas.1204330109
 
