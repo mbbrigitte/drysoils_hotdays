@@ -2,7 +2,7 @@
 ##IDL-Code from Paper at ETH Zurich: 
 Hirschi M., B. Mueller, W. Dorigo and S. I. Seneviratne (2014): [Using remotely sensed soil moisture for land-atmosphere coupling diagnostics: The role of surface vs. root-zone soil moisture variability.](http://www.sciencedirect.com/science/article/pii/S003442571400337X) Remote Sensing of Environment,  doi:10.1016/j.rse.2014.08.030. 
 
-##Structure:
+##Main code calculating correlations:
 * :arrow_right: [corr_SPI_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/corr_SPI_NHD.pro)
   * :leftwards_arrow_with_hook: [read_GLDAS.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_GLDAS.pro)
   * :leftwards_arrow_with_hook: [read_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_HD.pro)
