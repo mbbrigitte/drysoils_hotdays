@@ -4,7 +4,9 @@ Hirschi M., B. Mueller, W. Dorigo and S. I. Seneviratne (2014): [Using remotely 
 
 ##Structure:
 :arrow_right: [corr_SPI_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/corr_SPI_NHD.pro)
-:leftwards_arrow_with_hook: [read_GLDAS.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_GLDAS.pro), [read_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_HD.pro), [read_monthly_EI_Temp.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_monthly_EI_Temp.pro)
+  :leftwards_arrow_with_hook: [read_GLDAS.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_GLDAS.pro)
+  :leftwards_arrow_with_hook: [read_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_HD.pro)
+  :leftwards_arrow_with_hook: [read_monthly_EI_Temp.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_monthly_EI_Temp.pro)
 
 
 [corr_SPI_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/corr_SPI_NHD.pro) 
