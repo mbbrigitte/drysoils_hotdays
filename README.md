@@ -3,10 +3,10 @@
 Hirschi M., B. Mueller, W. Dorigo and S. I. Seneviratne (2014): [Using remotely sensed soil moisture for land-atmosphere coupling diagnostics: The role of surface vs. root-zone soil moisture variability.](http://www.sciencedirect.com/science/article/pii/S003442571400337X) Remote Sensing of Environment,  doi:10.1016/j.rse.2014.08.030. 
 
 ##Structure:
-*:arrow_right: [corr_SPI_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/corr_SPI_NHD.pro)
-  *:leftwards_arrow_with_hook: [read_GLDAS.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_GLDAS.pro)
-  *:leftwards_arrow_with_hook: [read_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_HD.pro)
-  *:leftwards_arrow_with_hook: [read_monthly_EI_Temp.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_monthly_EI_Temp.pro)
+* :arrow_right: [corr_SPI_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/corr_SPI_NHD.pro)
+  * :leftwards_arrow_with_hook: [read_GLDAS.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_GLDAS.pro)
+  * :leftwards_arrow_with_hook: [read_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_HD.pro)
+  * :leftwards_arrow_with_hook: [read_monthly_EI_Temp.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_monthly_EI_Temp.pro)
 
 
 [corr_SPI_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/corr_SPI_NHD.pro) 
@@ -16,7 +16,8 @@ The code uses the sub-functions in this directory: [read_GLDAS.pro](https://gith
 
 
 ##Sub-Codes - Calculating Hot Days:
-:leftwards_arrow_with_hook: [heatw_temp_percentiles_5d.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/heatw_temp_percentiles_5d.pro),prepare_daily_temp.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/prepare_daily_temp.pro)
+  * :leftwards_arrow_with_hook: [heatw_temp_percentiles_5d.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/heatw_temp_percentiles_5d.pro)
+  * :leftwards_arrow_with_hook: [prepare_daily_temp.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/prepare_daily_temp.pro)
 
 [heatw_temp_percentiles_5d.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/heatw_temp_percentiles_5d.pro) reads in the daily temperature data from different sources that you can choose with a keyword, and then calculates the number of days where the temperature is above the 90-th-percentile of the longterm 5 days-value around the date (not averaged, just the 5 values). If exceedance keyword is used, it will calculate the Temperature Exceedance in K - used in the Supplementary material of Mueller-paper - instead of the number of days.  
 To prepare the downloaded ERA-Interim or other sources temperature, the code [prepare_daily_temp.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/prepare_daily_temp.pro) extracts the maximum daily temperature from several (usually 4) values a day and saves them in NetCDF to be read in and used in heatw_temp_percentiles_5d.pro.
