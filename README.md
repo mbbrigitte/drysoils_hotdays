@@ -15,7 +15,7 @@ This function can read in any of the SPI-like and HotDay-like data used for both
 The code uses the sub-functions in this directory: [read_GLDAS.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_GLDAS.pro), [read_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_HD.pro) and [read_monthly_EI_Temp.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_monthly_EI_Temp.pro) to read in the data needed.  
 
 
-##Sub-Codes - Calculating Hot Days:
+##Sub code calculating Hot Days:
   * :leftwards_arrow_with_hook: [heatw_temp_percentiles_5d.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/heatw_temp_percentiles_5d.pro)
   * :leftwards_arrow_with_hook: [prepare_daily_temp.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/prepare_daily_temp.pro)
 
