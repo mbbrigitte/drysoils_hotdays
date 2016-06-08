@@ -13,9 +13,9 @@ Mueller, B. and S.I. Seneviratne (2012): [Hot days induced by precipitation defi
 
 [corr_SPI_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/corr_SPI_NHD.pro) 
 This function can read in any of the SPI-like and HotDay-like data used for both Hirschi et al. (2014) and Mueller and Seneviratne (2012). corr_SPI_HD.pro saves the correlations in NetCDF files for future reference and also creates the plots that appear in the Hirschi-paper. There is a description what the function does and how to properly call it in the header. 
-The figure that it produces is, for example:
+The figure that it produces is, for example the left hand side of:
 ![alt tag](https://cloud.githubusercontent.com/assets/15571699/15908454/181b4974-2dc2-11e6-90c3-e9a6575923cd.jpg)
-Correlations between number of hot days and preceding drought index calculated from GLDAS NOAH in this case (select NOAH keyword). The hatching identifies areas with 90% significance level for correlations.
+showing the correlations between number of hot days and preceding drought index calculated from GLDAS NOAH in this case (select NOAH keyword). The hatching identifies areas with 90% significance level for correlations.
 
 The code uses the sub-functions in this directory: [read_GLDAS.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_GLDAS.pro), [read_HD.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_HD.pro) and [read_monthly_EI_Temp.pro](https://github.com/mbbrigitte/drysoils_hotdays/blob/master/read_monthly_EI_Temp.pro) to read in the data needed.  
 
